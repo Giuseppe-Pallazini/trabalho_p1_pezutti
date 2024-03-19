@@ -19,12 +19,37 @@
     font-size: 6em;
 }
 
-.fs-5em {
+.fs-3_1em {
     font-size: 1.3em;
+}
+
+.fs-5em {
+    font-size: 5em;
+}
+
+
+
+.mt-10em {
+    margin-top: 10em;
 }
 
 .bg-red-blue {
     background: linear-gradient(90deg, rgba(255,7,7,1) 32%, rgba(214,62,156,1) 44%, rgba(20,124,240,1) 57%, rgba(255,7,7,1) 68%);
     color: transparent;
     background-clip: text;
+}
+
+.bg-243 {
+    background-color: rgb(243, 243, 243);
+}
+
+
+
+
+
+
+
+.img-alvo {
+    width: 7em;
+    height: auto;
 }
