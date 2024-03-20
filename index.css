@@ -33,6 +33,11 @@
     margin-top: 10em;
 }
 
+.mx-10 {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 .bg-red-blue {
     background: linear-gradient(90deg, rgba(255,7,7,1) 32%, rgba(214,62,156,1) 44%, rgba(20,124,240,1) 57%, rgba(255,7,7,1) 68%);
     color: transparent;
