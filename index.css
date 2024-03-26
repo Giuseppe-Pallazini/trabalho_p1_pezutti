@@ -15,16 +15,38 @@
 }
 
 
-.fs-6em {
-    font-size: 6em;
-}
 
-.fs-3_1em {
+.fs-1_3em {
     font-size: 1.3em;
 }
 
 .fs-5em {
     font-size: 5em;
+}
+
+.fs-6em {
+    font-size: 6em;
+}
+
+.fs-8em {
+    font-size: 8em;
+}
+
+.fs-10em {
+    font-size: 10em;
+}
+
+
+.mt-0_3em-n {
+    margin-top: -.3em;
+}
+
+.mt-0_4em-n {
+    margin-top: -.4em;
+}
+
+.mt-1em-n {
+    margin-top: -1em;
 }
 
 
@@ -38,17 +60,22 @@
     margin-right: 2em;
 }
 
+
+.bg-red-blue-sm {
+    background: linear-gradient(90deg, #ff0707 50%, rgba(214,62,156,1) 70%, rgba(20,124,240,1) 80%, #CB4787);
+    color: transparent; 
+    background-clip: text;
+}
+
 .bg-red-blue {
-    background: linear-gradient(90deg, rgba(255,7,7,1) 32%, rgba(214,62,156,1) 44%, rgba(20,124,240,1) 57%, rgba(255,7,7,1) 68%);
-    color: transparent;
+    background: linear-gradient(90deg, #ff0707 10%, rgba(214,62,156,1) 50%, rgba(20,124,240,1) 80%, #CB4787);
+    color: transparent; 
     background-clip: text;
 }
 
 .bg-243 {
     background-color: rgb(243, 243, 243);
 }
-
-
 
 
 
