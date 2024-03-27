@@ -15,7 +15,6 @@
 }
 
 
-
 .fs-1_3em {
     font-size: 1.3em;
 }
@@ -37,6 +36,7 @@
 }
 
 
+
 .mt-0_3em-n {
     margin-top: -.3em;
 }
@@ -49,16 +49,27 @@
     margin-top: -1em;
 }
 
-
+.mt-1_5em {
+    margin-top: 1.7em;
+}
 
 .mt-10em {
     margin-top: 10em;
 }
 
+
+
+.mb-10em {
+    margin-bottom: 10em;
+}
+
+
 .mx-10 {
     margin-left: 2em;
     margin-right: 2em;
 }
+
+
 
 
 .bg-red-blue-sm {
@@ -77,8 +88,20 @@
     background-color: rgb(243, 243, 243);
 }
 
+.bg-111 {
+    background-color: #111111;
+}
 
 
+
+
+.w-30 {
+    width: 30% !important;
+}
+
+.w-70 {
+    width: 70% !important;
+}
 
 
 .img-alvo {
