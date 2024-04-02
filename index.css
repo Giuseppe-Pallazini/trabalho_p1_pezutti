@@ -19,6 +19,10 @@
     font-size: 1.3em;
 }
 
+.fs-2em {
+    font-size: 2em;
+}
+
 .fs-5em {
     font-size: 5em;
 }
@@ -37,6 +41,12 @@
 
 
 
+.let_space-1px-n {
+    letter-spacing: -1px;
+}
+
+
+
 .mt-0_3em-n {
     margin-top: -.3em;
 }
@@ -51,6 +61,10 @@
 
 .mt-1_5em {
     margin-top: 1.7em;
+}
+
+.mt-9em {
+    margin-top: 9em;
 }
 
 .mt-10em {
@@ -92,6 +106,12 @@
     background-color: #111111;
 }
 
+
+
+
+.color-bf {
+    color: #BFBFBF;
+}
 
 
 
