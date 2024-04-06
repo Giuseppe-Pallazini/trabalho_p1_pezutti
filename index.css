@@ -44,6 +44,7 @@
 .let_space-1px-n {
     letter-spacing: -1px;
 }
+
 .let_space-1_3px-n {
     letter-spacing: -1.3px;
 }
@@ -53,18 +54,23 @@
 .mt-0_3em-n {
     margin-top: -.3em;
 }
+
 .mt-0_4em-n {
     margin-top: -.4em;
 }
+
 .mt-1em-n {
     margin-top: -1em;
 }
+
 .mt-1_5em {
     margin-top: 1.7em;
 }
+
 .mt-9em {
     margin-top: 9em;
 }
+
 .mt-10em {
     margin-top: 10em;
 }
@@ -74,6 +80,7 @@
 .mb-10em {
     margin-bottom: 10em;
 }
+
 .mb-8em {
     margin-bottom: 8em;
 }
@@ -93,14 +100,14 @@
 
 
 .bg-red-blue-sm {
-    background: linear-gradient(90deg, #ff0707 50%, rgba(214,62,156,1) 70%, rgba(20,124,240,1) 80%, #CB4787);
-    color: transparent; 
+    background: linear-gradient(90deg, #ff0707 50%, rgba(214, 62, 156, 1) 70%, rgba(20, 124, 240, 1) 80%, #CB4787);
+    color: transparent;
     background-clip: text;
 }
 
 .bg-red-blue {
-    background: linear-gradient(90deg, #ff0707 10%, rgba(214,62,156,1) 50%, rgba(20,124,240,1) 80%, #CB4787);
-    color: transparent; 
+    background: linear-gradient(90deg, #ff0707 10%, rgba(214, 62, 156, 1) 50%, rgba(20, 124, 240, 1) 80%, #CB4787);
+    color: transparent;
     background-clip: text;
 }
 
@@ -144,6 +151,7 @@
     }
 }
 
+
 @media (max-width: 1757px) {
     .img-pudgy {
         width: 500px;
@@ -153,10 +161,12 @@
         width: 500px;
     }
 
-    .selected-projects div h1, .selected-projects h1 {
+    .selected-projects div h1,
+    .selected-projects h1 {
         font-size: 7em;
     }
 }
+
 
 @media (max-width: 1605px) {
     .column_3-strategize {
@@ -168,6 +178,7 @@
     }
 }
 
+
 @media (max-width: 1428px) {
     .img-pudgy {
         width: 450px;
@@ -177,7 +188,8 @@
         width: 450px;
     }
 
-    .selected-projects div h1, .selected-projects h1 {
+    .selected-projects div h1,
+    .selected-projects h1 {
         font-size: 6em;
     }
 
@@ -189,13 +201,15 @@
         font-size: 2em !important;
     }
 
-    
+
     .column_3-we {
         font-size: 1.3em !important;
     }
+
     .column_3-strategize {
         font-size: 1.5em !important;
     }
+
     .column_3-effective {
         font-size: 1.3em !important;
     }
@@ -207,6 +221,7 @@
     .our-clients {
         font-size: 4em;
     }
+
     .we-create {
         font-size: 1.5em;
     }
@@ -217,12 +232,13 @@
 
 }
 
+
 @media (max-width: 1400px) {
     .power-visions {
         font-size: 6.9em;
     }
 
-    
+
 }
 
 
@@ -235,7 +251,8 @@
         width: 400px;
     }
 
-    .selected-projects div h1, .selected-projects h1 {
+    .selected-projects div h1,
+    .selected-projects h1 {
         font-size: 5em;
     }
 
@@ -261,7 +278,7 @@
     .we-transform {
         font-size: 5em;
     }
-    
+
     .power-visions {
         font-size: 5em;
     }
@@ -275,14 +292,14 @@
     }
 
     .bg-red-blue-sm {
-        background: linear-gradient(90deg, #ff0707 50%, rgba(214,62,156,1) 70%, rgba(20,124,240,1) 80%, #CB4787);
-        color: transparent; 
+        background: linear-gradient(90deg, #ff0707 50%, rgba(214, 62, 156, 1) 70%, rgba(20, 124, 240, 1) 80%, #CB4787);
+        color: transparent;
         background-clip: text;
     }
-    
+
     .bg-red-blue {
-        background: linear-gradient(90deg, #ff0707 30%, rgba(214,62,156,1) 50%, rgba(20,124,240,1) 70%, #CB4787);
-        color: transparent; 
+        background: linear-gradient(90deg, #ff0707 30%, rgba(214, 62, 156, 1) 50%, rgba(20, 124, 240, 1) 70%, #CB4787);
+        color: transparent;
         background-clip: text;
     }
 
@@ -321,9 +338,11 @@
     .column_3-we {
         font-size: 1.1em !important;
     }
+
     .column_3-strategize {
         font-size: 1.3em !important;
     }
+
     .column_3-effective {
         font-size: 1em !important;
     }
@@ -331,5 +350,190 @@
 
     .lets_create {
         font-size: 6em;
+    }
+}
+
+
+@media (max-width: 1021px) {
+    .selected-projects {
+        align-items: center;
+
+        .selected {
+            font-size: 7em;
+            margin: 0;
+        }
+
+        .projects {
+            margin-top: -.1em;
+            font-size: 7em;
+        }
+
+        .img-pudgy {
+            width: 500px;
+        }
+    }
+
+
+    .info-pudgy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5em;
+
+        .img-infoPudgy {
+            width: 500px;
+        }
+
+        ul li {
+            margin-top: 1em;
+        }
+
+    }
+
+    .we-create {
+        font-size: 1.2em;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    .we-transform {
+        font-size: 4em;
+    }
+
+    .power-visions {
+        font-size: 3.5em;
+    }
+
+    .magic,
+    .experiences {
+        font-size: 4em;
+    }
+}
+
+
+@media (max-width: 962px) {
+    .int-des-sol {
+        font-size: 3em;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .redes-sociais {
+        font-size: .8em;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    .img-logo,
+    .img-menu_hamburguer {
+        width: 70px;
+    }
+
+
+    .section-we_transform {
+
+        .we-transform {
+            text-align: center;
+            font-size: 3em;
+        }
+
+        .power-visions {
+            text-align: center;
+            font-size: 3em;
+        }
+
+        .magic,
+        .experiences {
+            font-size: 2.5em;
+        }
+    }
+
+
+    .selected-projects {
+
+        .selected-projects-img_alvo {
+            width: 100px;
+        }
+
+        .selected,
+        .projects {
+            font-size: 4em;
+        }
+    }
+
+    .img-infoPudgy,
+    .img-pudgy {
+        width: 300px !important;
+    }
+
+
+    .we-intentionally {
+        flex-direction: column-reverse !important;
+
+        .column-3_we-strategize {
+
+            .column_3-we {
+                font-size: .8em;
+                margin: 0 !important;
+            }
+
+            .column_3-strategize {
+                font-size: 1em !important;
+            }
+
+            .column_3-effective {
+                text-align: center;
+            }
+        }
+
+        .int-des-sol {
+            font-size: 2.5em;
+        }
+
+        .int-des-sol:last-child {
+            margin-bottom: 1em;
+        }
+    }
+
+    .img-product {
+        width: 250px !important;
+    }
+
+
+    .lets_create {
+        font-size: 4em;
+    }
+
+
+    .rodape-infos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5em;
+
+        .no_idea-copyright {
+            display: flex;
+            align-items: center;
+
+            .title {
+                width: 280px;
+                border: 1px solid;
+            }
+
+            .copyright {
+                border: 1px solid;
+                width: 240px;
+            }
+        }
+
+        .redes-sociais {
+            margin: 2em 2em 0 0 !important;
+        }
     }
 }
