@@ -564,4 +564,54 @@
 
 @media (max-width: 375px) {
     
+    .section-we_transform {
+
+        .we-transform {
+            text-align: center;
+            font-size: 3em;
+        }
+
+        .power-visions {
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        .power-visions img {
+            margin: 0;
+            padding: 0;
+            width: 50px;
+        }
+
+        .magic,
+        .experiences {
+            font-size: 2em;
+        }
+    }
+
+
+    .selected-projects {
+        .selected-projects-img_alvo {
+            width: 70px !important;
+        }
+
+        .img-pudgy {
+            width: 263px !important;
+        }
+    }
+
+
+
+    .info-pudgy {
+
+        
+        .img-infoPudgy {
+            width: 263px !important;
+        }
+
+        ul li {
+            margin-top: 1em;
+            font-size: 1.5em !important;
+        }
+
+    }
 }
