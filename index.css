@@ -615,3 +615,101 @@
 
     }
 }
+
+@media (max-width: 320px) {
+
+    .section-we_transform {
+
+        .we-transform {
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .power-visions {
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .power-visions img {
+            margin: 0;
+            padding: 0;
+            width: 45px;
+        }
+
+        .magic,
+        .experiences {
+            font-size: 1.7em;
+        }
+    }
+
+
+
+    .selected-projects {
+
+        .selected-projects-img_alvo {
+            width: 50px !important;
+        }
+
+        .selected {
+            font-size: 3em;
+        }
+
+        .projects {
+            font-size: 3em;
+        }
+
+        .img-pudgy {
+            width: 222px !important;
+        }
+    }
+
+    .info-pudgy {
+
+        
+        .img-infoPudgy {
+            width: 222px !important;
+        }
+
+        ul li {
+            margin-top: 1em;
+            font-size: 1.3em !important;
+        }
+
+    }
+
+
+
+    .we-intentionally {
+        flex-direction: column-reverse !important;
+
+        .column-3_we-strategize {
+
+            .column_3-we {
+                font-size: .8em !important;
+                margin: 0 !important;
+            }
+
+            .column_3-strategize {
+                font-size: 1em !important;
+            }
+
+            .column_3-effective {
+                text-align: center;
+            }
+        }
+
+        .column-3-strategize {
+            font-size: .2em;
+            border: 1px solid white;
+        }
+
+        .int-des-sol {
+            font-size: 2.5em;
+        }
+
+        .int-des-sol:last-child {
+            margin-bottom: 1em;
+        }
+    }
+
+}
